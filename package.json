@@ -9,11 +9,9 @@
   },
   "author": "Lisa Veras <lisaveras@gmail.com> (http://lisaveras.com)",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.11.0"
-  },
   "dependencies": {
     "express": "^4.14.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "nodemon": "^1.11.0"
   }
 }
