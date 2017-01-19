@@ -1,0 +1,39 @@
+body {
+	background-color: #99b3ff;
+}
+
+.before{
+	margin: 20vh auto 0vh auto;
+	padding: 15vh 0;
+	width: 50vw;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: lighter; 
+	background-color: #ADC2FF;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.after{
+	margin: 0vh auto 0vh auto;
+	padding: 2vh 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: lighter; 
+	background-color: #ADC2FF;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+h1 {
+	font-family: cursive;
+	font-size: 5em;
+	margin: 0vh auto 0vh auto;
+	background-color: #ADC2FF;
+	text-align: center;
+	font-weight: lighter;
+}
+
+h2 {
+	font-weight: lighter;
+}
