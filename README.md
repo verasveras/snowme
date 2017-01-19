@@ -1,2 +1,2 @@
 # snowme
-An A-Frame application that let's you become a snowperson.
+An A-Frame application that lets you become a snowperson and see it in VR.
