@@ -1,5 +1,7 @@
 body {
+	height: 100vh;
 	background-color: #99b3ff;
+	background: linear-gradient(to bottom right, #4d79ff, #e6ecff); /* Standard syntax */
 }
 
 .before{
