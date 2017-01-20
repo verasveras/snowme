@@ -26,28 +26,28 @@ input.addEventListener('change', function(event) {
 
         <!-- snowflakes -->
 
-		<a-sphere position="0 1.25 -1" radius=".03" color="#eaf4ff">
+		<a-sphere radius=".03" color="#eaf4ff">
 			<a-animation attribute="position" from="0 10 0" to="0 0 0" dur="3000" repeat="indefinite"></a-animation>
 		</a-sphere>
-		<a-sphere position="0 1.25 -1" radius=".02" color="#eaf4ff">
+		<a-sphere radius=".02" color="#eaf4ff">
 			<a-animation attribute="position" from="-2 10 2" to="-2 0 2" dur="2400" repeat="indefinite"></a-animation>
 		</a-sphere>
-		<a-sphere position="0 1.25 -1" radius=".04" color="#eaf4ff">
+		<a-sphere radius=".04" color="#eaf4ff">
 			<a-animation attribute="position" from="-4 10 -3" to="-4 0 -3" dur="4200" repeat="indefinite"></a-animation>
 		</a-sphere>
-		<a-sphere position="0 1.25 -1" radius=".02" color="#eaf4ff">
+		<a-sphere radius=".02" color="#eaf4ff">
 			<a-animation attribute="position" from="8 10 -3" to="8 0 -3" dur="2900" repeat="indefinite"></a-animation>
 		</a-sphere>
-		<a-sphere position="0 1.25 -1" radius=".02" color="#eaf4ff">
+		<a-sphere radius=".02" color="#eaf4ff">
 			<a-animation attribute="position" from="4 10 -7" to="4 0 -7" dur="4000" repeat="indefinite"></a-animation>
 		</a-sphere>
-		<a-sphere position="0 1.25 -1" radius=".02" color="#eaf4ff">
+		<a-sphere radius=".02" color="#eaf4ff">
 			<a-animation attribute="position" from="8 10 -1" to="8 0 -1" dur="3500" repeat="indefinite"></a-animation>
 		</a-sphere>
-		<a-sphere position="0 1.25 -1" radius=".02" color="#eaf4ff">
+		<a-sphere radius=".02" color="#eaf4ff">
 			<a-animation attribute="position" from="-1 10 8" to="-1 0 8" dur="3000" repeat="indefinite"></a-animation>
 		</a-sphere>
-		<a-sphere position="0 1.25 -1" radius=".03" color="#eaf4ff">
+		<a-sphere radius=".03" color="#eaf4ff">
 			<a-animation attribute="position" from="5 10 3" to="5 0 3" dur="3000" repeat="indefinite"></a-animation>
 		</a-sphere>
 
