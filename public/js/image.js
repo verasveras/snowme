@@ -13,6 +13,7 @@ input.addEventListener('change', function(event) {
 	header.classList.add('after');
 	subheader.style.display = 'none';
 	info.style.display = 'none';
+	
 	scene.innerHTML = `<a-scene inspector="url: https://aframe.io/releases/0.3.0/aframe-inspector.min.js">
         <a-assets>
           <img id="faceTexture" src=${URL.createObjectURL(file)}>
