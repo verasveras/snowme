@@ -48,14 +48,21 @@ input.addEventListener('change', function(event) {
 
         <a-sphere position="0 1.25 -1" radius="1.25" color="#eaf4ff">
             <a-sphere position="0 1.25 0" radius="1" color="#eaf4ff">
-              <a-cylinder rotation="0 0 -75" position="1 0.7 0" radius="0.08" height="1.5" color="brown">
+			  <!-- BUTTONS -->
+              <a-cylinder rotation="90 0 0" position="0 0.2 1" radius="0.08" height=".1" color="#000000">
               </a-cylinder>
-              <a-cylinder rotation="0 0 75" position="-1 0.5 0" radius="0.08" height="1.5" color="brown"> 
+              <a-cylinder rotation="90 0 0" position="0 -0.2 1" radius="0.08" height=".1" color="#000000"> 
+              </a-cylinder>
+
+              <!-- ARMS -->
+              <a-cylinder rotation="0 0 -75" position="1 0.6 0" radius="0.08" height="1.5" color="#5b3601">
+              </a-cylinder>
+              <a-cylinder rotation="0 0 75" position="-1 0.3 0" radius="0.08" height="1.5" color="#5b3601"> 
               </a-cylinder>
               <a-sphere rotation="0 -90 0" position="0 1 0" radius=".8" color="#eaf4ff" src="#faceTexture"></a-sphere>
             </a-sphere>
         </a-sphere>
-        <a-plane rotation="-90 0 0" width="10" height="7" color="#EDFFE8"></a-plane>
+        <a-plane rotation="-90 0 0" width="10" height="7" color="#edffe8"></a-plane>
         <a-sky color="#99b3ff"></a-sky>
         <a-entity position="0 0 3.8">
 
