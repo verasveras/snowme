@@ -2,15 +2,15 @@ body {
 	height: 100vh;
 	background-color: #99b3ff;
 	background: linear-gradient(to bottom right, #4d79ff, #e6ecff); /* Standard syntax */
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
 }
 
 .before{
 	margin: 20vh auto 0vh auto;
-	padding: 15vh 0;
+	padding: 13vh 0 10vh;
 	width: 50vw;
-	font-family: Verdana, Geneva, sans-serif;
 	font-weight: lighter; 
-	background-color: #ADC2FF;
 	border: 1px solid white;
 	border-radius: 5px;
 	text-align: center;
@@ -19,9 +19,7 @@ body {
 .after{
 	margin: 0vh auto 0vh auto;
 	padding: 2vh 0;
-	font-family: Verdana, Geneva, sans-serif;
 	font-weight: lighter; 
-	background-color: #ADC2FF;
 	border: 1px solid white;
 	border-radius: 5px;
 	text-align: center;
@@ -29,14 +27,19 @@ body {
 }
 
 h1 {
-	font-family: cursive;
 	font-size: 5em;
 	margin: 0vh auto 0vh auto;
-	background-color: #ADC2FF;
 	text-align: center;
 	font-weight: lighter;
 }
 
 h2 {
+	font-weight: lighter;
+}
+
+p {
+	font-family: 'Cormorant', serif;
+	margin: 4vh 0;
+	font-size: 1em;
 	font-weight: lighter;
 }

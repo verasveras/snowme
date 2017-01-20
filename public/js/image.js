@@ -5,12 +5,14 @@ input.addEventListener('change', function(event) {
 	var file = event.target.files[0]; 
 	var header = document.getElementById('header');
 	var subheader = document.getElementById('subheader');
-	var scene = document.getElementById('scene')
+	var scene = document.getElementById('scene');
+	var info = document.getElementById('info');
 
 
 	header.classList.remove('before');
 	header.classList.add('after');
 	subheader.style.display = 'none';
+	info.style.display = 'none';
 	scene.innerHTML = `<a-scene inspector="url: https://aframe.io/releases/0.3.0/aframe-inspector.min.js">
         <a-assets>
           <img id="faceTexture" src=${URL.createObjectURL(file)}>
