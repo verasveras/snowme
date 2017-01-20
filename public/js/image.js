@@ -1,12 +1,17 @@
-var input = document.getElementById('imageInput');
-var faceTexture = document.getElementById('faceTexture');
+let input = document.getElementById('imageInput');
+let faceTexture = document.getElementById('faceTexture');
+
+function generateSnowflakes(num){
+	let html = '';
+	// for ()
+}
 
 input.addEventListener('change', function(event) {
-	var file = event.target.files[0]; 
-	var header = document.getElementById('header');
-	var subheader = document.getElementById('subheader');
-	var scene = document.getElementById('scene');
-	var info = document.getElementById('info');
+	let file = event.target.files[0]; 
+	let header = document.getElementById('header');
+	let subheader = document.getElementById('subheader');
+	let scene = document.getElementById('scene');
+	let info = document.getElementById('info');
 
 
 	header.classList.remove('before');
