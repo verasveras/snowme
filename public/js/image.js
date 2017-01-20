@@ -1,9 +1,28 @@
 let input = document.getElementById('imageInput');
 let faceTexture = document.getElementById('faceTexture');
 
+function randomDuration(){
+
+}
+
+function randomCoordinate();
+
+
+
+}
+
 function generateSnowflakes(num){
+
 	let html = '';
-	// for ()
+
+	for (let i=0; i < num; i++){
+		html += `<a-sphere radius=".03" color="#eaf4ff">
+			<a-animation attribute="position" from="0 10 0" to="0 0 0" dur="3000" repeat="indefinite"></a-animation>
+		</a-sphere>`
+	}
+
+	return html;
+
 }
 
 input.addEventListener('change', function(event) {
