@@ -41,7 +41,7 @@ input.addEventListener('change', function(event) {
               </a-cylinder>
               <a-cylinder rotation="0 0 75" position="-1 0.5 0" radius="0.08" height="1.5" color="brown"> 
               </a-cylinder>
-              <a-sphere position="0 1 0" radius=".75" color="#eaf4ff" src="#faceTexture"></a-sphere>
+              <a-sphere rotation="0 -90 0" position="0 1 0" radius=".8" color="#eaf4ff" src="#faceTexture"></a-sphere>
             </a-sphere>
         </a-sphere>
         <a-plane rotation="-90 0 0" width="10" height="7" color="#EDFFE8"></a-plane>
